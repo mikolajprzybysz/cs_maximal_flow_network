@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DD43300-41AF-4E7C-B961-68A14641AD81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximalFlowNetwork", "MaximalFlowNetwork\MaximalFlowNetwork.csproj", "{96A7486C-BBD4-43A5-894D-2046E5850BCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96A7486C-BBD4-43A5-894D-2046E5850BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A7486C-BBD4-43A5-894D-2046E5850BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A7486C-BBD4-43A5-894D-2046E5850BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A7486C-BBD4-43A5-894D-2046E5850BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
