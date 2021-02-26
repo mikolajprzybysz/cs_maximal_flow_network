@@ -1,0 +1,14 @@
+﻿<Window x:Class="MaximalFlowNetwork.FlowCapacityWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Set Flow and Capacity" Height="143" Width="162">
+    <Grid>
+        <Button Name="buttonCancel" Height="23" VerticalAlignment="Top" Margin="77,68,0,0" HorizontalAlignment="Left" Width="54">Cancel</Button>
+        <Label Height="23.277" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="11,39,0,0" Name="label2" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="60">Capacity:</Label>
+        <Label Height="23.277" Margin="11,10,0,0" Name="label1" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Width="60" HorizontalAlignment="Left" VerticalAlignment="Top">Flow:</Label>
+
+        <TextBox Height="23" Margin="77,10,0,0" Name="textBoxFlow" VerticalAlignment="Top" HorizontalAlignment="Left" Width="54" PreviewTextInput="textBoxFlow_PreviewTextInput" />
+        <TextBox Height="23" Margin="77,39,0,0" Name="textBoxCapacity" VerticalAlignment="Top" HorizontalAlignment="Left" Width="54" PreviewTextInput="textBoxFlow_PreviewTextInput" />
+        <Button Height="23" Margin="17,68,0,0" Name="buttonOk" VerticalAlignment="Top" HorizontalAlignment="Left" Width="54">Ok</Button>
+    </Grid>
+</Window>

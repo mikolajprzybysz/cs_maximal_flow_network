@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<network id="[string]" width="[int>0]" height="[int>0]">
+<!-- width and height describe size of network screen-->
+<node id="[string]" position.x="[int>0]" postion.y="[int>0]"></node>
+<!-- x and y are describing position of node on the network screen-->
+<edge id="[string]" flow="[int>=0]" capacity="[int>0]" from="[string]" to="[string]"></edge>
+<!-- "from" and "to" are names od nodes which given edge is connected to-->
+</network>

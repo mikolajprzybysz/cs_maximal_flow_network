@@ -1,0 +1,20 @@
+﻿<Window x:Class="MaximalFlowNetwork.EdgeAdd"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:myNS="clr-namespace:MaximalFlowNetwork"
+    Title="EdgeAdd" Height="177" Width="155" ResizeMode="NoResize" x:Name="EdgeAddWindow">
+    <Grid>
+        <WrapPanel Name="wrapPanel1">
+            
+            <Label Height="23" Name="labelFrom" Width="70" HorizontalContentAlignment="Right"  >From:</Label>
+            <ComboBox Height="23" Name="comboBoxFrom" Width="53" />
+            <Label Height="23" HorizontalContentAlignment="Right" Name="labelTo" Width="70">To:</Label>
+            <ComboBox Height="23" Name="comboBoxTo" Width="53" />
+            <Label HorizontalContentAlignment="Right" Name="labelFlow" Width="70">Flow:</Label>
+            <TextBox Name="textBoxFlow" Width="53" />
+            <Label Height="23" HorizontalContentAlignment="Right" Name="labelCapacity" Width="70">Capacity:</Label>
+            <TextBox Height="23" Name="textBoxCapacity" Width="53" />
+            <Button Height="23" Margin="5,8,0,0" Name="button1" Width="123">Add</Button>
+        </WrapPanel>
+    </Grid>
+</Window>
